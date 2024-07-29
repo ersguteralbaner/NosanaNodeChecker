@@ -39,8 +39,9 @@ echo -e "${GREEN}   ██████ ██   ██ ██████ ██
                                                                           
 # Check if npx is installed
 if ! command -v npx &> /dev/null; then
-    echo -e "${RED}npx could not be found. Please install Node.js v20.15.1 and npx.${RESET}"
-    exit 1
+    echo -e "${RED}npx could not be found. Trying to install Node.js v20. ${RESET}"
+    curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+    sudo apt-get install -y nodejs  
 fi
 
 # Check if @nosana/cli is installed
