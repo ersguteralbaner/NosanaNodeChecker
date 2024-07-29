@@ -52,9 +52,9 @@ fi
 # Function to print a formatted header
 print_header() {
     local header="$1"
-    echo -e "${GREEN}====================================${RESET}"
+    echo -e "${GREEN}████████████████████████████████████████${RESET}"
     echo -e "${GREEN}${header}${RESET}"
-    echo -e "${GREEN}====================================${RESET}"
+    echo -e "${GREEN}████████████████████████████████████████${RESET}"
 }
 
 # Function to kill all related processes
