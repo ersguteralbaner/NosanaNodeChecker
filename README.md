@@ -58,4 +58,5 @@ View while node is in queue.
 ![Screenshot from 2024-07-29 15-13-44](https://github.com/user-attachments/assets/46b91a05-2fbe-4a78-bf1b-6095ac87d879)
 
 View while node is processing a job
-![Screenshot from 2024-07-29 16-54-33](https://github.com/user-attachments/assets/5db47ae1-e82b-4d53-bc16-e09f7d06ee4c)
+
+![Screenshot from 2024-07-30 00-24-36](https://github.com/user-attachments/assets/d6e4cd8a-9414-43cb-aaa6-2172d09b976b)
