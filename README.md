@@ -17,3 +17,5 @@ To get started with Nosana Node Checker v1, follow these simple steps:
 3. Configure: Set your wallet addresses and RPC URL in the script. You can get an individual RPC URL for free at https://www.helius.dev/.
 4. Run the Tool: Execute the script to start managing and monitoring your Nosana nodes. ./checker.sh
 5. Monitor and Control: Follow the interactive prompts to manage your node checks and get real-time updates.
+![Screenshot from 2024-07-29 15-13-44](https://github.com/user-attachments/assets/46b91a05-2fbe-4a78-bf1b-6095ac87d879)
+![Screenshot from 2024-07-29 16-54-33](https://github.com/user-attachments/assets/5db47ae1-e82b-4d53-bc16-e09f7d06ee4c)
