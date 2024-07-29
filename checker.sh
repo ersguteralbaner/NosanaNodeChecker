@@ -20,7 +20,8 @@ RESET='\033[0m'
 BLINK='\e[1;5;32m'
 
 clear
- echo -e "${BLINK}                                    ${RESET}"                                                                                                                                 
+print_logo(){
+ echo -e "${BLINK}                                              ${RESET}"                                                                                                                                 
  echo -e "${BLINK}			   ███ ████████ ███   ███ ${RESET}"                
  echo -e "${BLINK} 			   ███  ███████  ███  ███ ${RESET}"                
  echo -e "${BLINK} 			   ███   ███ ███  ███ ███ ${RESET}"             
@@ -30,8 +31,12 @@ clear
  echo -e "${BLINK}			   ███  ████ ███ ███  ███ ${RESET}"         
  echo -e "${BLINK}			   ███   ███  ███ ███ ███ ${RESET}"                
  echo -e "${BLINK}			   ███    ████████ █████  ${RESET}"                
- echo -e "${BLINK}     	                              ${RESET}"                 
- echo -e "${BLINK}			       NODE CHECKER v1    ${RESET}"                
+ echo -e "${BLINK}     	                                          ${RESET}"                 
+ echo -e "${BLINK}			       NODE CHECKER v1    ${RESET}"
+ }
+ 
+ print_logo
+             
 sleep 3
                                                                           
 # Check if npx is installed
@@ -69,6 +74,8 @@ sleep 3
 
 # Loop through each wallet and run the command
 for WALLET in "${WALLETS[@]}"; do
+    clear
+    
     echo -e "							"
     print_header "█ █ █ █ █Processing Node ${WALLET} █ █ █ █ █"
     
@@ -95,5 +102,7 @@ for WALLET in "${WALLETS[@]}"; do
     echo -e "Status for ${GREEN}${WALLET}${RESET} has been stopped."
 
 done
-
+clear
+print_logo
+echo -e " "
 print_header "█ █ █ █ █ █ █ █ █ █ █ █ █ █ █ All Nodes processed █ █ █ █ █ █ █ █ █ █ █ █ █ █ █"
