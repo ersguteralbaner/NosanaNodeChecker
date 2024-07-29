@@ -43,6 +43,7 @@ Ensure that npx and nosana/cli are installed. The script will assist with this i
 ### 4. Configure:
    
    Set your wallet addresses and RPC URL in the script. You can get an individual RPC URL for free at https://www.helius.dev/.
+  ` sudo nano checker.sh`
    
 ### 5. Run the Tool:
 
