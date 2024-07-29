@@ -5,10 +5,10 @@ RPC_URL="https://mainnet.helius-rpc.com/?api-key=43ad2d0e-ce64-42ce-b19d-2767b43
 
 # Define the list of wallets
 WALLETS=(
-    "Wallet"
-    "Wallet"
-    "Wallet"
-    "Wallet"
+    "Wallet1"
+    "Wallet2"
+    "Wallet3"
+    "Wallet4"
 )
 
 # Define colors
@@ -52,27 +52,28 @@ fi
 # Function to print a formatted header
 print_header() {
     local header="$1"
-    echo -e "${GREEN}████████████████████████████████████████${RESET}"
+    echo -e "${GREEN}█ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █${RESET}"
     echo -e "${GREEN}${header}${RESET}"
-    echo -e "${GREEN}████████████████████████████████████████${RESET}"
+    echo -e "${GREEN}█ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █${RESET}"
 }
 
 # Function to kill all related processes
 kill_all_processes() {
-    print_header "Stopping All Related Processes"
+    
     
     # stop processes
     pkill -f "npm exec @nosana/cli node view"
     pkill -f "sh -c 'npx @nosana/cli node view'"
     pkill -f "node --no-warnings .*nosana.*node view"
 
-    echo -e "${GREEN}All related processes have been stopped.${RESET}"
+    
 }
 sleep 3
 
 # Loop through each wallet and run the command
 for WALLET in "${WALLETS[@]}"; do
-    print_header "Processing Node ${GREEN}${WALLET}${RESET}"
+    echo -e "							"
+    print_header "█ █ █ █ █Processing Node ${WALLET} █ █ █ █ █"
     
     # Run the command in the background
     npx @nosana/cli node view --rpc "$RPC_URL" "$WALLET" &
@@ -95,8 +96,7 @@ for WALLET in "${WALLETS[@]}"; do
 
     # Display the stopped command status
     echo -e "Status for ${GREEN}${WALLET}${RESET} has been stopped."
-    echo -e "${GREEN}████████████████████████████████████████████████████████${RESET}"
+
 done
 
-print_header "All Nodes processed"
-
+print_header "█ █ █ █ █ █ █ █ █ █ █ █ █ █ █ All Nodes processed █ █ █ █ █ █ █ █ █ █ █ █ █ █ █"
