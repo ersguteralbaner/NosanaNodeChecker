@@ -1,55 +1,54 @@
 # NosanaNodeChecker
-🚀 Welcome to Nosana Node Checker v1, a powerful tool designed for monitoring multiple Nosana nodes.
+# 🚀 Welcome to Nosana Node Checker v1, a powerful tool designed for monitoring multiple Nosana nodes.
 
-What is Nosana Node Checker v1?
+## What is Nosana Node Checker v1?
 Nosana Node Checker v1 is a command-line utility built to help you easily manage and monitor multiple Nosana nodes. It allows you to execute commands, check node statuses, and ensure everything is running smoothly with minimal effort.
 
-Key Features:
+### Key Features:
     • Multi-Wallet Support: Manage and monitor multiple Nosana nodes simultaneously. Simply provide a list of wallet addresses, and the tool handles the rest.
     • Dynamic Status Updates: Receive real-time updates and easily track the status of each node.
 
 
-1.Installation & Usage:
+### 1.Installation & Usage:
 
 To get started with Nosana Node Checker v1, follow these simple steps:
     
-2.Download the Script: 
-
-wget https://github.com/ersguteralbaner/NosanaNodeChecker/blob/0d1d71d0cd038b7a2db467fd49e7ec5c7711fa0f/checker.sh
-
+### 2.Download the Script: 
+`wget https://github.com/ersguteralbaner/NosanaNodeChecker/blob/0d1d71d0cd038b7a2db467fd49e7ec5c7711fa0f/checker.sh`
 Obtain the latest version of Nosana Node Checker v1 and make it executable with chmod +x checker.sh
 
-3.Install Dependencies:
+### 3.Install Dependencies:
 
 Ensure that npx and nosana/cli are installed. The script will assist with this if needed.
 
 #installs nvm (Node Version Manager)
 
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
 
 #download and install Node.js (you may need to restart the terminal)
 
-nvm install 20
+`nvm install 20`
 
 #verifies the right Node.js version is in the environment
 
-node -v # should print v20.16.0
+`node -v` # should print v20.16.0
 
 #verifies the right npm version is in the environment
 
-npm -v # should print 10.8.1
+`npm -v` # should print 10.8.1
 
-npx @nosana/cli
+`npx @nosana/cli`
 
-4. Configure:
+### 4. Configure:
    
    Set your wallet addresses and RPC URL in the script. You can get an individual RPC URL for free at https://www.helius.dev/.
    
-5. Run the Tool:
+### 5. Run the Tool:
 
-   Execute the script to start managing and monitoring your Nosana nodes. ./checker.sh
+   Execute the script to start managing and monitoring your Nosana nodes. 
+   `./checker.sh`
    
-7. Monitor and Control:
+### 6. Monitor and Control:
    
    Follow the interactive prompts to manage your node checks and get real-time updates.
 
