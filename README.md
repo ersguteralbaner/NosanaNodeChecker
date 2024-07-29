@@ -14,7 +14,7 @@ Nosana Node Checker v1 is a command-line utility built to help you easily manage
 To get started with Nosana Node Checker v1, follow these simple steps:
     
 ### 2.Download the Script: 
-`wget https://github.com/ersguteralbaner/NosanaNodeChecker/blob/0d1d71d0cd038b7a2db467fd49e7ec5c7711fa0f/checker.sh`
+`wget [https://raw.githubusercontent.com/ersguteralbaner/NosanaNodeChecker/main/checker.sh]`
 
 Obtain the latest version of Nosana Node Checker v1 and make it executable with `chmod +x checker.sh`
 
