@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the RPC URL and API key
-RPC_URL="RPC_URL="https://mainnet.helius-rpc.com/?api-key=43ad2d0e-ce64-42ce-b19d-2767b436ce29"
+RPC_URL="https://mainnet.helius-rpc.com/?api-key=43ad2d0e-ce64-42ce-b19d-2767b436ce29"
 
 # Define the list of wallets
 WALLETS=(
