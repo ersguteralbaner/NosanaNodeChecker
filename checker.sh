@@ -46,7 +46,7 @@ fi
 # Check if @nosana/cli is installed
 if ! npx @nosana/cli --version &> /dev/null; then
     echo -e "${RED}@nosana/cli is not installed. Installing now...${RESET}"
-    npm install -g @nosana/cli
+    npx @nosana/cli
 fi   
 # Function to print a formatted header
 print_header() {
