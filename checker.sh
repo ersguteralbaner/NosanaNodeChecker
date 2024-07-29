@@ -94,7 +94,7 @@ for WALLET in "${WALLETS[@]}"; do
     wait "$PID" 2>/dev/null
 
     # Display the stopped command status
-    echo -e "${GREEN}Status for ${WALLET}${RESET} has been stopped."
+    echo -e "Status for ${GREEN}${WALLET}${RESET} has been stopped."
     echo -e "${YELLOW}------------------------------------------------------------${RESET}"
 done
 
