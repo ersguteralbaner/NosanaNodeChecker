@@ -17,25 +17,22 @@ RED='\033[0;31m'
 YELLOW='\033[0;33m'
 BLUE='\033[0;34m'
 RESET='\033[0m'
+BLINK='\e[1;5;32m'
 
 clear
-echo -e "${GREEN}                                                                             ${RESET}"
-                                                                                                                                                                   
- echo -e "${GREEN} ███ ████████ ███   ███                                                      ${RESET}"                
- echo -e "${GREEN} ███  ███████  ███  ███ ████   ███    ████████   ██████████  ██████████      ${RESET}"                
- echo -e "${GREEN} ███   ███ ███  ███ ███ █████  ███  ████    ███  ███    ████ ███             ${RESET}"             
- echo -e "${GREEN} ███    ███ ███  ██████ ██████ ███  ███      ███ ███     ███ ███             ${RESET}"         
- echo -e "${GREEN} ███████ ███ ███    ███ ███ ██████  ███      ███ ███     ███ █████████       ${RESET}"                 
- echo -e "${GREEN} ███ ████ ███ ███   ███ ███  █████  ███     ████ ███     ███ ███             ${RESET}"              
- echo -e "${GREEN} ███  ████ ███ ███  ███ ███   ████   ██████████  ███     ██  ███             ${RESET}"         
- echo -e "${GREEN} ███   ███  ███ ███ ███ ███    ███     ██████    ████████    ██████████      ${RESET}"                
- echo -e "${GREEN} ███    ████████ █████                                                       ${RESET}"                
- echo -e "${GREEN}                                                                             ${RESET}"                 
- echo -e "${GREEN}  ██████ ██   ██  ██████  ██████  ██  ███ ███████ ███████   ███  ██   ██     ${RESET}"                
- echo -e "${GREEN} ██   ██ ██   ██  ██     ███   ██ █████   ██      ██  ███    ██  ██ ████     ${RESET}"                
- echo -e "${GREEN} ██      ███████  ██████ ██       █████   ██████  ██████     █████    ██     ${RESET}"                
- echo -e "${GREEN} ██   ██ ██   ██  ██      ██   ██ ██  ██  ██      ██  ███     ███     ██     ${RESET}"               
- echo -e "${GREEN}  █████  ██   ██  ██████   █████  ██   ██ ███████ ██  ███      ██     ██     ${RESET}" 
+ echo -e "${BLINK}                                    ${RESET}"                                                                                                                                 
+ echo -e "${BLINK}			   ███ ████████ ███   ███ ${RESET}"                
+ echo -e "${BLINK} 			   ███  ███████  ███  ███ ${RESET}"                
+ echo -e "${BLINK} 			   ███   ███ ███  ███ ███ ${RESET}"             
+ echo -e "${BLINK} 			   ███    ███ ███  ██████ ${RESET}"         
+ echo -e "${BLINK}			   ███████ ███ ███    ███ ${RESET}"                 
+ echo -e "${BLINK}			   ███ ████ ███ ███   ███ ${RESET}"              
+ echo -e "${BLINK}			   ███  ████ ███ ███  ███ ${RESET}"         
+ echo -e "${BLINK}			   ███   ███  ███ ███ ███ ${RESET}"                
+ echo -e "${BLINK}			   ███    ████████ █████  ${RESET}"                
+ echo -e "${BLINK}     	                              ${RESET}"                 
+ echo -e "${BLINK}			       NODE CHECKER v1    ${RESET}"                
+sleep 3
                                                                           
 # Check if npx is installed
 if ! command -v npx &> /dev/null; then
