@@ -9,12 +9,13 @@ Key Features:
     • Dynamic Status Updates: Receive real-time updates and easily track the status of each node.
 
 
-Installation & Usage:
+1.Installation & Usage:
 To get started with Nosana Node Checker v1, follow these simple steps:
     
-1. Download the Script: wget https://github.com/ersguteralbaner/NosanaNodeChecker/blob/0d1d71d0cd038b7a2db467fd49e7ec5c7711fa0f/checker.sh
+2.Download the Script: 
+wget https://github.com/ersguteralbaner/NosanaNodeChecker/blob/0d1d71d0cd038b7a2db467fd49e7ec5c7711fa0f/checker.sh
 Obtain the latest version of Nosana Node Checker v1 and make it executable with chmod +x checker.sh
-2. Install Dependencies:
+3.Install Dependencies:
 Ensure that npx and nosana/cli are installed. The script will assist with this if needed.
 #installs nvm (Node Version Manager)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
