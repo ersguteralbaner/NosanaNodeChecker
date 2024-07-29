@@ -95,7 +95,7 @@ for WALLET in "${WALLETS[@]}"; do
 
     # Display the stopped command status
     echo -e "Status for ${GREEN}${WALLET}${RESET} has been stopped."
-    echo -e "${YELLOW}------------------------------------------------------------${RESET}"
+    echo -e "${GREEN}████████████████████████████████████████████████████████${RESET}"
 done
 
 print_header "All Nodes processed"
