@@ -21,18 +21,29 @@ BLINK='\e[1;5;32m'
 
 clear
 print_logo(){
- echo -e "${BLINK}                                              ${RESET}"                                                                                                                                 
- echo -e "${BLINK}			   ███ ████████ ███   ███ ${RESET}"                
- echo -e "${BLINK} 			   ███  ███████  ███  ███ ${RESET}"                
- echo -e "${BLINK} 			   ███   ███ ███  ███ ███ ${RESET}"             
- echo -e "${BLINK} 			   ███    ███ ███  ██████ ${RESET}"         
- echo -e "${BLINK}			   ███████ ███ ███    ███ ${RESET}"                 
- echo -e "${BLINK}			   ███ ████ ███ ███   ███ ${RESET}"              
- echo -e "${BLINK}			   ███  ████ ███ ███  ███ ${RESET}"         
- echo -e "${BLINK}			   ███   ███  ███ ███ ███ ${RESET}"                
- echo -e "${BLINK}			   ███    ████████ █████  ${RESET}"                
- echo -e "${BLINK}     	                                          ${RESET}"                 
- echo -e "${BLINK}			       NODE CHECKER v1    ${RESET}"
+ echo -e "${BLINK}${RESET}"
+ 
+                                                                                                                     
+                                                                                                                     
+echo -e "${BLINK}      		                  ███████████            ${RESET}" 
+echo -e "${BLINK}   		              ███             ███        ${RESET}" 
+echo -e "${BLINK}   		            ██                   ██      ${RESET}" 
+echo -e "${BLINK}   		          ██                       ██    ${RESET}" 
+echo -e "${BLINK}   		         █   █████ ███████      ███  █   ${RESET}" 
+echo -e "${BLINK}   		        █    ███ ███ ████ ███   ███   █  ${RESET}" 
+echo -e "${BLINK}   		       █     ███  ███ ███  ███  ███    █ ${RESET}" 
+echo -e "${BLINK}   		      ██     ███   ███ ███  ███ ███    ██${RESET}" 
+echo -e "${BLINK}   		      ██     ███    ███ ███  ██ ███    ██${RESET}" 
+echo -e "${BLINK}   		      █      ███ ███ ███ ███    ███    █ ${RESET}" 
+echo -e "${BLINK}		      ██     ███ ████ ███ ███   ███    ██${RESET}" 
+echo -e "${BLINK}		      ██     ███  ████ ███ ███  ███    ██${RESET}" 
+echo -e "${BLINK}		       █     ███   ███  ███ ███ ███    █ ${RESET}" 
+echo -e "${BLINK}		        █    ███    ████████ █████    █  ${RESET}" 
+echo -e "${BLINK}		         █                           █   ${RESET}" 
+echo -e "${BLINK}		          ██    NODE CHECKER v1    ██    ${RESET}" 
+echo -e "${BLINK}		            ██                   ██      ${RESET}" 
+echo -e "${BLINK}		              ███             ███        ${RESET}" 
+echo -e "${BLINK}		                  ███████████            ${RESET}" 
  }
  
  print_logo
@@ -75,7 +86,7 @@ sleep 3
 # Loop through each wallet and run the command
 for WALLET in "${WALLETS[@]}"; do
     clear
-    
+    print_logo
     echo -e "							"
     print_header "█ █ █ █ █Processing Node ${WALLET} █ █ █ █ █"
     
