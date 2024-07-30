@@ -55,7 +55,8 @@ Ensure that npx and nosana/cli are installed. The script will assist with this i
    Follow the interactive prompts to manage your node checks and get real-time updates.
 
 View while node is in queue.   
-![Screenshot from 2024-07-29 15-13-44](https://github.com/user-attachments/assets/46b91a05-2fbe-4a78-bf1b-6095ac87d879)
+![Screenshot from 2024-07-30 09-26-53](https://github.com/user-attachments/assets/e2678b84-40f2-4d4f-875a-70d96da87477)
+
 
 View while node is processing a job
 
