@@ -9,6 +9,7 @@ WALLETS=(
     "Wallet2"
     "Wallet3"
     "Wallet4"
+  
 )
 
 # Define colors
@@ -29,7 +30,7 @@ echo -e "${BLINK}      		                  ███████████    
 echo -e "${BLINK}   		              ███             ███        ${RESET}" 
 echo -e "${BLINK}   		            ██                   ██      ${RESET}" 
 echo -e "${BLINK}   		          ██                       ██    ${RESET}" 
-echo -e "${BLINK}   		         █   █████ ███████      ███  █   ${RESET}" 
+echo -e "${BLINK}   		         █   ██████ ████████    ███  █   ${RESET}" 
 echo -e "${BLINK}   		        █    ███ ███ ████ ███   ███   █  ${RESET}" 
 echo -e "${BLINK}   		       █     ███  ███ ███  ███  ███    █ ${RESET}" 
 echo -e "${BLINK}   		      ██     ███   ███ ███  ███ ███    ██${RESET}" 
